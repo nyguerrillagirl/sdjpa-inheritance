@@ -1,4 +1,4 @@
-package guru.springframework.sdjpainheritence.tableperclass;
+package guru.springframework.sdjpainheritence.domain.tableperclass;
 
 import jakarta.persistence.Entity;
 

@@ -1,4 +1,4 @@
-package guru.springframework.sdjpainheritence.singletable;
+package guru.springframework.sdjpainheritence.domain.singletable;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;

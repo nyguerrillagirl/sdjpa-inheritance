@@ -1,11 +1,10 @@
-package guru.springframework.sdjpainheritence.singletable;
+package guru.springframework.sdjpainheritence.domain.joined;
 
 import jakarta.persistence.*;
 
 @Entity
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name = "vehicle_type")
-public abstract class Vehicle {
+@Inheritance(strategy = InheritanceType.JOINED)
+public abstract class Instrument {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
